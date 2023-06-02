@@ -1,0 +1,16 @@
+
+.header{
+  
+  &__left{
+    justify-content: space-around;
+    i{
+      font-size: 1.5rem;
+      margin-right: 1rem;
+    }
+  }
+  .nav-pills{
+    .nav-link:hover{
+      color: var(--secondary);
+    }
+  }
+}
