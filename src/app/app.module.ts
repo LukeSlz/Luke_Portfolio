@@ -9,6 +9,10 @@ import { IndexComponent } from './index/index.component';
 import { HeaderComponent } from './partials/header/header.component';
 import { FooterComponent } from './partials/footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AboutComponent } from './about/about.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { CvComponent } from './cv/cv.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 
@@ -18,7 +22,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AppComponent,
     IndexComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    AboutComponent,
+    ProjectsComponent,
+    CvComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
